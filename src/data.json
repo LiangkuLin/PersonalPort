@@ -1,0 +1,56 @@
+{
+    "projects":[
+            {
+                "id":1,
+                "project_name":"Calories Calculator",
+                "project_name_gitHub":"CaloriesCalculator_AndroidApp",
+                "HomePageDis":"This is the android application",
+                "description": "This is the android application which can calculate the calories of user every day and recording all data in the calendar.",
+                "technologies":["Java","Android studio","MySQL"],
+                "image_urls": {
+                    "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories_square_pve0wx.jpg",
+                    "internal_image":[
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories1_v2finx.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories2_tochej.jpg",
+                        ".https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories3_ubrgrd.jpg"
+                    ]
+                }
+            },
+            {
+                "id":2,
+                "project_name":"Chris Fitness",
+                "project_name_gitHub":"1280_FinalProject",
+                "HomePageDis":"This is the website which was made for Chris Fitness",
+                "description": "This is the website which was made for Chris Fitness. This website contain all pictures which were related to Previos Chris Fitness in Hong Kong, and the BMI and body fat calculator are provided. In addition, the training video is also provided for the users who intend to work out at home.",
+                "technologies":["HTML","CSS","Javascript"],
+                "image_urls": {
+                    "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610166/MuayTai/muay_square_nwusum.jpg",
+                    "internal_image":[
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610166/MuayTai/muay1_fzosrt.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610166/MuayTai/muay2_yym6wd.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610166/MuayTai/muay3_lan8de.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610167/MuayTai/muay4_fk4n3a.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610166/MuayTai/muay5_ehfdbl.jpg"
+                
+                    ]
+                }
+            },
+            {
+                "id":3,
+                "project_name":"Movie Booking System",
+                "project_name_gitHub":"MovieBookingSystem",
+                "HomePageDis":"This is the website which was made for any movie company",
+                "description": "This is the website which was made for any movie company. They can use this app to share new movie information, manage users data. Customers can use this app to book tickets with specific seat. ",
+                "technologies":["Vue","HTML","CSS","Javascript","Springboot","Java","H2 database"],
+                "image_urls": {
+                    "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie2_cvab5u.jpg",
+                    "internal_image":[
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie1_jpah5w.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie_square_nforo8.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie3_y2raj5.jpg"
+                    ]
+                }
+            }
+
+    ]
+}
