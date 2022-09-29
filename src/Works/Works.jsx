@@ -4,6 +4,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 
 
+
 import Typography from '@mui/material/Typography';
 import Grid2 from '@mui/material/Unstable_Grid2/Grid2';
 import Card from '@mui/material/Card';
@@ -20,7 +21,7 @@ function Works() {
     let navigate = useNavigate();
   
 
-    // css 
+    // style 
     const works = {
         backgroundColor: "#F8F8F8",
         height: "100vh",
@@ -57,6 +58,8 @@ function Works() {
       navigate("/worksPage",{state:{work:data}}); 
     }
 
+
+  
   
   return (
     <motion.div style={works}
@@ -95,8 +98,7 @@ function Works() {
              </Grid2>
             )}
         </Grid2>
-  
-       
+
     </motion.div>
   )
 }

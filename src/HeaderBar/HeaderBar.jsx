@@ -48,7 +48,7 @@ const navStyle ={
               <Grid><NavLink to="/">Welcome</NavLink></Grid>
               <Grid><NavLink to="/about">About</NavLink></Grid>
               <Grid><NavLink to="/works">Works</NavLink></Grid>
-              <Grid><NavLink to="#">Contact</NavLink></Grid>
+              <Grid><NavLink to="/contact">Contact</NavLink></Grid>
             </Grid>
     </Grid>
   )

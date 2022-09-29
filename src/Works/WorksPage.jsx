@@ -1,15 +1,22 @@
-import React,{useEffect} from 'react'
-import { useLocation } from 'react-router-dom'
+import React,{useEffect, useState,useRef} from 'react'
+import { useLocation,Route,Routes } from 'react-router-dom'
 import { motion } from 'framer-motion';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import Button from '@mui/material/Button';
 
+import WorksGallery from './WorksGallery';
+
 import { Typography } from '@mui/material';
 
-function WorksPage(id) {
+
+
+function WorksPage() {
+
+
 const location = useLocation();
 
 
+// styling 
  const ButtonStyle={
   backgroundColor:"gray",
   textTransform: 'none',
@@ -18,17 +25,16 @@ const location = useLocation();
     borderColor: '#0062cc',
     
   }
-
-
  }
 
-  return (
-    <motion.div
-    initial={{opacity:0}} // 初始狀態
-    animate={{opacity:1}} // 接續動畫
-    exit={{opacity:0, transition:{duration:0.1}}} // 離開動畫
-    >
 
+  return (
+    <>
+    <motion.div
+    initial={{opacity:0}} 
+    animate={{opacity:1}} 
+    exit={{opacity:0, transition:{duration:0.1}}} 
+    >
     <Grid container direction="row" justifyContent="space-around"  sx={{margin:3, marginTop:8}}>
         <Grid xs={5} md={7} >
          <Typography variant="h4" >{location.state.work.project_name}</Typography>
@@ -46,12 +52,9 @@ const location = useLocation();
             <Button variant="contained" sx={ButtonStyle} >github</Button>
         </Grid>
     </Grid>
-
-
-
-
-
     </motion.div>
+    <WorksGallery/>
+    </>
   )
 }
 

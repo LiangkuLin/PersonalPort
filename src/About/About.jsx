@@ -1,11 +1,9 @@
 import React from 'react'
 import me from '../images/me.jpg'
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import {motion} from 'framer-motion';
 import Typography from '@mui/material/Typography';
-import { Box } from '@mui/material';
+
 
 
 
@@ -31,16 +29,24 @@ function About() {
       initial={{opacity:0}}
       animate={{opacity:1}}
       exit={{opacity:0, transition:{duration:0.1}}}
+      style={{ overflow:"scroll" ,overflowX:"hidden",overflowY:"hidden" ,zIndex:"1"}}
     >
       <Grid container direction="row" justifyContent="space-evenly">
-        <Grid container direction="column" width="40%">
+        <Grid  container direction="column" width="40%" >
           <Typography  variant="h5" gutterBottom>About me</Typography>
           <Typography>
-          Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph. A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and Connors 116). Length and appearance do not determine whether a section in a paper is a paragraph. For instance, in some styles of writing, particularly journalistic styles, a paragraph can be just one sentence long. Ultimately, a paragraph is a sentence or group of sentences that support one main idea. In this handout, we will refer to this as the “controlling idea,” because it controls what happens in the rest of the paragraph.
-          
+          I am Liangku Lin from Taiwan. 
+          I am a person who really interested in coding especially front-end developing. 
+          In the past, I studied in civil engineering but I found that I was not into it. 
+          As a result, I came to Canada to study computer science. 
+          I am a person who are really hard-working. I love to do something different and learn something new. 
+          It feels satisfied when I finished developing a project and turned the system into work. 
           </Typography>
+          <hr/>
+          <Typography  variant="h5" gutterBottom>Work experinece</Typography>
+          
         </Grid>
-        <Grid style={imageStyle} >
+        <Grid  style={imageStyle} >
         </Grid>
       </Grid>
     </motion.div>

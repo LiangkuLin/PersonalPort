@@ -3,12 +3,12 @@
 
 .aboutContainer{
   position:relative;
-  background-color:rgb(247, 225, 191);
+  background-color:rgb(233, 239, 241);
   width: 90vw;
   height: 88vh;
   top:6vh;
   margin-left: 7vh;
-  box-shadow: 2vw 2vw #f0ab8b;
+  box-shadow: 2vw 2vw #9ca9ae;
   z-index: -1;
   padding: 1rem;
   padding-left: 85px;
@@ -26,6 +26,94 @@
   background-size: cover;
   z-index:-1;
 }
+
+.inlineIcon{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inlineIcon li{
+  border-radius: 30%;
+  width: 1.5rem;
+  height:1.5rem;
+  border: 2px solid black;
+  margin:1rem;
+  color:'Black';
+  list-style: none;
+  
+}
+
+.inlineIcon li.active{
+  background-color: black;
+}
+
+
+.inlineIcon li:hover{
+  background-color: black;
+}
+
+
+.swap-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.swap-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: opacity 3000ms ,  transform 1000ms ;
+}
+.swap-exit {
+  opacity: 1; 
+  display: none;
+ 
+}
+.swap-exit-active {
+  opacity: 0;
+  transition: opacity 300ms , transform 0ms;
+}
+
+.logoAnimation{
+  animation-name: logoShift;
+  animation-duration: 3s;
+} 
+
+@keyframes logoShift{
+  from {transform:translateX(-50%);opacity:0}
+  to { transform:translateX(0%);opacity:1}
+}
+
+.ContactCaptionAnimation{
+  animation-name: captionShift;
+  animation-duration: 3s;
+} 
+
+@keyframes captionShift{
+  from {transform:translateX(50%); opacity:0}
+  to { transform:translateX(0%); opacity:1}
+}
+
+.ContactDetailsAnimation{
+  animation-name: contactdetail;
+  animation-duration: 2s;
+  padding-top: 2vh; 
+}
+
+@keyframes contactdetail{
+  from {transform:translateX(-50%);opacity:0}
+  to { transform:translateX(0%);opacity:1}
+}
+
+.welcomePageAnimation{
+  animation-name: welcomeAnimation;   
+  animation-duration: 1s;
+
+ }
+
+@keyframes welcomeAnimation {
+  from{ transform: translateX(-50%);opacity: 0;}
+  to { transform: translateX(0%); opacity: 1;}
+}
+
 
 
 
