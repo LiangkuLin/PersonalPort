@@ -50,7 +50,7 @@ function Welcome() {
        <Grid container  style={gridStyle} >
             <Grid item  sx={{ fontSize:"2vw", maxHeight:"500px",overflow:"hidden",textOverflow: "clip"}}> 
                   Hi, <br/>
-                  I am LiangKu Lin <br/>
+                  I am Liangku Lin <br/>
               <Link to="/portfolio/about" className='welcomePageAnimation'>    
                   Click here to start ->
               </Link>
