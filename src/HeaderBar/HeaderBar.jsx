@@ -45,10 +45,10 @@ const navStyle ={
             </Grid>
          
             <Grid container direction="row" justifyContent="space-between" alignItems="center" sx={containerStyle}>
-              <Grid><NavLink to="/">Welcome</NavLink></Grid>
-              <Grid><NavLink to="/about">About</NavLink></Grid>
-              <Grid><NavLink to="/works">Works</NavLink></Grid>
-              <Grid><NavLink to="/contact">Contact</NavLink></Grid>
+              <Grid><NavLink to="/portfolio">Welcome</NavLink></Grid>
+              <Grid><NavLink to="/portfolio/about">About</NavLink></Grid>
+              <Grid><NavLink to="/portfolio/works">Works</NavLink></Grid>
+              <Grid><NavLink to="/portfolio/contact">Contact</NavLink></Grid>
             </Grid>
     </Grid>
   )
