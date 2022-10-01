@@ -11,28 +11,28 @@ function About() {
 
   
 
-  const imageStyle = {
-    backgroundImage: `url("${ me }")`,
-    backgroundPosition: "center",
-    backgroundRepeat:"no-repeat",
-    backgroundSize: "cover",
-    width:"40vw",
-    height: "70vh",
-    marginLeft:"2vw",
-    marginTop:"2vh",
-  }
+  // const imageStyle = {
+  //   backgroundImage: `url("${ me }")`,
+  //   backgroundPosition: "center",
+  //   backgroundRepeat:"no-repeat",
+  //   backgroundSize: "cover",
+  //   width:"40vw",
+  //   height: "70vh",
+  //   marginLeft:"2vw",
+  //   marginTop:"2vh",
+  // }
 
 
+ 
   
   return (
     <motion.div className="aboutContainer"
       initial={{opacity:0}}
       animate={{opacity:1}}
       exit={{opacity:0, transition:{duration:0.1}}}
-      style={{ overflow:"scroll" ,overflowX:"hidden",overflowY:"hidden" ,zIndex:"1"}}
     >
-      <Grid container direction="row" justifyContent="space-evenly">
-        <Grid  container direction="column" width="40%" >
+      <Grid container direction="row" rowSpacing={6} justifyContent="space-evenly">
+        <Grid  container direction="column"  sm={12} md={6}>
           <Typography  variant="h5" gutterBottom>About me</Typography>
           <Typography>
           I am Liangku Lin from Taiwan. 
@@ -43,10 +43,15 @@ function About() {
           It feels satisfied when I finished developing a project and turned the system into work. 
           </Typography>
           <hr/>
-          <Typography  variant="h5" gutterBottom>Work experinece</Typography>
+          <Typography  variant="h5" gutterBottom>Work experinece
+       
+          
+          
+          </Typography>
           
         </Grid>
-        <Grid  style={imageStyle} >
+        <Grid  sm={12} md={6} container  justifyContent="space-evenly" sx={{overflow:"hidden"}}>
+          <img src="https://res.cloudinary.com/dxh3jlhil/image/upload/v1664640757/portFile_public/Try_nlax7b.jpg" alt=".img" className='aboutPicture'/>
         </Grid>
       </Grid>
     </motion.div>

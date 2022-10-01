@@ -70,7 +70,7 @@ const chooseDisplayImage = (url,event) =>{
       timeout={1000}
       classNames="swap"
       >
-        <ImageComponet url={imageURL}/>
+      <ImageComponet url={imageURL}/>
       </CSSTransition>
       </TransitionGroup>
       

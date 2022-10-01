@@ -1,20 +1,19 @@
 
 
-
+/** about page **/
 .aboutContainer{
-  position:relative;
   background-color:rgb(233, 239, 241);
-  width: 90vw;
-  height: 88vh;
-  top:6vh;
-  margin-left: 7vh;
+  margin: 7vh;
   box-shadow: 2vw 2vw #9ca9ae;
-  z-index: -1;
-  padding: 1rem;
-  padding-left: 85px;
-  
- 
+  padding: 2rem;
 }
+
+.aboutPicture{
+  height: 70vh;
+}
+
+
+
 
 .WelocomePageContainer{
   position:relative;
@@ -113,6 +112,14 @@
   from{ transform: translateX(-50%);opacity: 0;}
   to { transform: translateX(0%); opacity: 1;}
 }
+
+
+
+
+
+
+
+
 
 
 

@@ -63,9 +63,9 @@ function Works() {
   
   return (
     <motion.div style={works}
-    initial={{opacity:0}} // 初始狀態
-    animate={{opacity:1}} // 接續動畫
-    exit={{opacity:0, transition:{duration:0.1}}} // 離開動畫
+    initial={{opacity:0}} 
+    animate={{opacity:1}} 
+    exit={{opacity:0, transition:{duration:0.1}}} 
     >
 
         <ThemeProvider theme={theme}>

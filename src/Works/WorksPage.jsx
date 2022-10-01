@@ -35,14 +35,14 @@ const location = useLocation();
     animate={{opacity:1}} 
     exit={{opacity:0, transition:{duration:0.1}}} 
     >
-    <Grid container direction="row" justifyContent="space-around"  sx={{margin:3, marginTop:8}}>
-        <Grid xs={5} md={7} >
+    <Grid container direction="row" justifyContent="space-around" spacing={{xs:7}} sx={{margin:3, marginTop:8}}>
+        <Grid xs={12} md={7} >
          <Typography variant="h4" >{location.state.work.project_name}</Typography>
           <hr/>
           <Typography varient="p">{location.state.work.description}</Typography>
         </Grid>
-        <Grid xs={4} md={4} >
-            <Typography >Skills: </Typography>
+        <Grid xs={12} md={4} >
+            <Typography ><strong>Skills: </strong></Typography>
             <ul>
               {location.state.work.technologies.map((eachSkill)=>
               <li key={eachSkill}>{eachSkill}</li>
