@@ -1,5 +1,4 @@
 import React from 'react'
-import me from '../images/me.jpg'
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import {motion} from 'framer-motion';
 import Typography from '@mui/material/Typography';
