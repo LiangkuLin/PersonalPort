@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography';
 
 
 
+
 function About() {
 
   
@@ -25,27 +26,50 @@ function About() {
  
   
   return (
-    <motion.div className="aboutContainer"
+    <motion.div 
       initial={{opacity:0}}
       animate={{opacity:1}}
       exit={{opacity:0, transition:{duration:0.1}}}
     >
+      <div className='aboutContainer'>
       <Grid container direction="row" rowSpacing={6} justifyContent="space-evenly">
         <Grid  container direction="column"  sm={12} md={6}>
           <Typography  variant="h5" gutterBottom>About me</Typography>
           <Typography>
-          I am Liangku Lin from Taiwan. 
-          I am a person who really interested in coding especially front-end developing. 
-          In the past, I studied in civil engineering but I found that I was not into it. 
-          As a result, I came to Canada to study computer science. 
-          I am a person who are really hard-working. I love to do something different and learn something new. 
-          It feels satisfied when I finished developing a project and turned the system into work. 
+          Passionate junior front-end developer with a strong desire to work in the real workplace. 
+          Skilled in CSS, HTML and JavaScript. Familiar with React and have little experience in Vue. 
+          Hope can implement these skills in the collaborative environment. 
           </Typography>
           <hr/>
-          <Typography  variant="h5" gutterBottom>Work experinece
-       
-          
-          
+          <Typography  variant="h5" gutterBottom>Work experinece  </Typography>
+            
+          <Typography>
+          <h6>CSIS Computer Lab Student Assistant </h6>  
+          <h6 className='dateFormat'>May, 2022 - December, 2022 </h6>  
+          <h6>Douglas college  </h6>  
+          </Typography>
+          <Typography>
+          Course 1280 (web development) (HTML, CSS, JavaScript)
+          <ul>
+            <li>Help students to build the knowledge of HTML & CSS & JavaScript</li>
+            <li>Fix bugs in javascript which made by students in class  </li>
+            <li>Guide students to finish their assignments well </li>
+          </ul>
+          </Typography>
+          <Typography>
+          Course 1175 (introduction of programming) (C#)
+          <ul>
+            <li>Help students to build the knowledge of basic programming in C#</li>
+            <li>Fix bugs and lead students to finish the class demos and assignments </li>
+            <li>Assist students review exam and assignments contents to ensure they back on track </li>
+          </ul>
+          </Typography>
+          <Typography>
+          Open lab assistant
+          <ul>
+            <li>Help students to solve any questions based on computer science fundamental courses at Douglas  (e.g.  all courses provided with 1xxx and 2xxx ) </li>
+            <li>Provide the idea / suggestion of students' project based on the courses they were taken</li>
+          </ul>
           </Typography>
           
         </Grid>
@@ -53,6 +77,7 @@ function About() {
           <img src="https://res.cloudinary.com/dxh3jlhil/image/upload/v1664640757/portFile_public/Try_nlax7b.jpg" alt=".img" className='aboutPicture'/>
         </Grid>
       </Grid>
+      </div>
     </motion.div>
   )
 }

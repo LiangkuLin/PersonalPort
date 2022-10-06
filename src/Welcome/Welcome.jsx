@@ -28,6 +28,7 @@ function Welcome() {
         width:"40vw",
         color:"black",
         display: "block",
+        fontSize:"2vw",
     }
 
 
@@ -45,8 +46,9 @@ function Welcome() {
         animate={{opacity:1}}
         exit={{opacity:0, transition:{duration:0.1}}}
     >
-       <Grid container  style={gridStyle} >
-            <Grid item  sx={{ fontSize:"2vw", maxHeight:"500px",overflow:"hidden",textOverflow: "clip"}}> 
+       <Grid container sx={gridStyle} >
+            <Grid item  className='wordOfWelcome'> 
+            {/* sx={{ fontSize:"2vw", maxHeight:"500px",overflow:"hidden",textOverflow: "clip"}} */}
                   Hi, <br/>
                   I am Liangku Lin <br/>
               <NavLink  to="/portfolio/about" className='welcomePageAnimation'>    

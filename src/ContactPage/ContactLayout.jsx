@@ -5,7 +5,7 @@ import CantactLogo from './ContactLogo';
 import ContactLogoCaption from './ContactLogoCaption';
 import ContactDetail from './ContactDetail';
 
-function ContactLayout() {
+const ContactLayout = () => {
     
     const mainLayoutStyle ={
         textAlign: 'center',
