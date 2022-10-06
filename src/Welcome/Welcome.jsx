@@ -4,7 +4,7 @@ import { Grid } from '@mui/material'
 import {motion} from 'framer-motion';
 import backgroundImage from "../images/index_img.jpg";
 import PortIndex from '../PortIndex/PortindexPage';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 function Welcome() {
@@ -28,8 +28,6 @@ function Welcome() {
         width:"40vw",
         color:"black",
         display: "block",
-        
-       
     }
 
 
@@ -51,9 +49,9 @@ function Welcome() {
             <Grid item  sx={{ fontSize:"2vw", maxHeight:"500px",overflow:"hidden",textOverflow: "clip"}}> 
                   Hi, <br/>
                   I am Liangku Lin <br/>
-              <Link to="/portfolio/about" className='welcomePageAnimation'>    
+              <NavLink  to="/portfolio/about" className='welcomePageAnimation'>    
                   Click here to start ->
-              </Link>
+              </NavLink>
               
             </Grid>
        </Grid>
