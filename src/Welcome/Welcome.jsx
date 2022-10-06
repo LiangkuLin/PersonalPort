@@ -46,9 +46,8 @@ function Welcome() {
         animate={{opacity:1}}
         exit={{opacity:0, transition:{duration:0.1}}}
     >
-       <Grid container sx={gridStyle} >
+       {/* <Grid container sx={gridStyle} >
             <Grid item  className='wordOfWelcome'> 
-            {/* sx={{ fontSize:"2vw", maxHeight:"500px",overflow:"hidden",textOverflow: "clip"}} */}
                   Hi, <br/>
                   I am Liangku Lin <br/>
               <NavLink  to="/portfolio/about" className='welcomePageAnimation'>    
@@ -56,7 +55,15 @@ function Welcome() {
               </NavLink>
               
             </Grid>
-       </Grid>
+       </Grid>  */}
+       <div className='welcomeGridStyle'>
+        Hi, <br/>
+        I am Liangku Lin <br/>
+        <NavLink  to="/portfolio/about" className='welcomePageAnimation'>    
+                  Click here to start ->
+        </NavLink>
+       </div>
+
     </motion.div>
   )
 }

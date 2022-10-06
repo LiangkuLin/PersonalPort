@@ -73,7 +73,7 @@ function About() {
           </Typography>
           
         </Grid>
-        <Grid  sm={12} md={6} container  justifyContent="space-evenly" sx={{overflow:"hidden"}}>
+        <Grid  sm={12} md={6} container  justifyContent="center"  alignItems="center" sx={{overflow:"hidden"}}>
           <img src="https://res.cloudinary.com/dxh3jlhil/image/upload/v1664640757/portFile_public/Try_nlax7b.jpg" alt=".img" className='aboutPicture'/>
         </Grid>
       </Grid>

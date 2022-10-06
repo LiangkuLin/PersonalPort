@@ -1,30 +1,36 @@
 /**welcome page **/
-.wordOfWelcome{
-  font-size:"3vw";
-  max-height:"500px";
-  overflow:"hidden";
-  text-overflow: "clip";
+.welcomeGridStyle{
+  position:relative;
+  left:30vw;
+  top:70vh;
+  width:40vw;
+  color:black;
+  display: block;
+  font-size:2vw;
+  font-style: italic;
 }
 
-.gridStyle{
-  position:"relative";
-  left:"30vw";
-  top:"70vh";
-  width:"40vw";
-  color:"black";
-  display: "block";
+.wordOfWelcome{
+  
+  max-height:500px;
+  overflow:hidden;
+  text-overflow: clip;
 }
+
+
 
 /** about page **/
 .aboutContainer{
   background-color:rgb(233, 239, 241);
   margin: 7vh;
   box-shadow: 2vw 2vw #9ca9ae;
-  padding: 2rem;
+  padding: 5rem;
 }
 
 .aboutPicture{
-  height:80vh;
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
 }
 
 .dateFormat{
@@ -152,6 +158,20 @@
   padding: 0.6em;
   border-radius: 10px;
 } */
+@media only screen and (max-width:1000px) {
+
+  .welcomeGridStyle{
+    position:relative;
+    left:30vw;
+    top:70vh;
+    width:40vw;
+    color:black;
+    display: block;
+    font-size:4vw;
+  }
+  
+}
+
 
 @media only screen and (max-width:600px) {
   .aboutContainer{
@@ -160,6 +180,17 @@
     box-shadow: 2vw 2vw #9ca9ae;
     padding:10vw;
   }
+
+  .welcomeGridStyle{
+    position:relative;
+    left:30vw;
+    top:70vh;
+    width:50vw;
+    color:black;
+    display: block;
+    font-size:5vw;
+  }
+  
 }
 
 
