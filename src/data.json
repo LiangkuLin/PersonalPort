@@ -2,24 +2,31 @@
     "projects":[
             {
                 "id":1,
-                "project_name":"Calories Calculator",
-                "project_name_gitHub":"CaloriesCalculator_AndroidApp",
-                "HomePageDis":"This is the android application",
-                "description": "This is the android application which can calculate the calories of user every day and recording all data in the calendar.",
-                "technologies":["Java","Android studio","MySQL"],
+                "project_name":"Canine Life Matter",
+                "HomePageDis":"This is the website which was made for stray dog",
+                "description": "This is the web applicaiton which was made for stray dogs. Users can report where they found dogs. The other users can adopt it through this website",
+                "technologies":["React","HTML","CSS", "Java", "Spring boot", "MySQL"],
                 "image_urls": {
-                    "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories_square_pve0wx.jpg",
+                    "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256769/Canine/Canine1_rectxo.jpg",
                     "internal_image":[
-                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories1_v2finx.jpg",
-                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories2_tochej.jpg",
-                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories3_ubrgrd.jpg"
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256769/Canine/Canine1_rectxo.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256769/Canine/Canine2_szv624.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256770/Canine/Canine3_bfgztm.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256769/Canine/Canine4_x7rx4i.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256770/Canine/Canine5_n5akhj.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256769/Canine/Canine6_uvfwpe.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256770/Canine/Canine7_n4ds1d.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256770/Canine/Canine8_glwpnu.jpg"
+                
                     ]
-                }
+                },
+                "git_Repo":"https://github.com/JinChin02/Canine_Life_Matter_4495"
+               
             },
+         
             {
                 "id":2,
                 "project_name":"Chris Fitness",
-                "project_name_gitHub":"1280_FinalProject",
                 "HomePageDis":"This is the website which was made for Chris Fitness",
                 "description": "This is the website which was made for Chris Fitness. This website contain all pictures which were related to Previos Chris Fitness in Hong Kong, and the BMI and body fat calculator are provided. In addition, the training video is also provided for the users who intend to work out at home.",
                 "technologies":["HTML","CSS","Javascript"],
@@ -33,13 +40,14 @@
                         "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610166/MuayTai/muay5_ehfdbl.jpg"
                 
                     ]
-                }
+                },
+                "git_Repo":"https://github.com/LiangkuLin/ChrisFitness",
+                "git_live_demo":"https://liangkulin.github.io/ChrisFitness/"
             },
             {
                 "id":3,
                 "project_name":"Movie Booking System",
-                "project_name_gitHub":"MovieBookingSystem",
-                "HomePageDis":"This is the website which was made for any movie company",
+                "HomePageDis":"This is the website made for any movie company",
                 "description": "This is the website which was made for any movie company. They can use this app to share new movie information, manage users data. Customers can use this app to book tickets with specific seat. ",
                 "technologies":["Vue","HTML","CSS","Javascript","Springboot","Java","H2 database"],
                 "image_urls": {
@@ -49,8 +57,47 @@
                         "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie_square_nforo8.jpg",
                         "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie3_y2raj5.jpg"
                     ]
-                }
+                },
+                "git_Repo":"https://github.com/LiangkuLin/MovieBookingSystem"
+            },
+            {
+                "id":4,
+                "project_name":"EasyCook",
+                "HomePageDis":"Web application that provides recipes and related ingredients",
+                "description": "This is the website which was made for people srearching new recipes and grabing all ingredients conveniently",
+                "technologies":["PHP","HTML","CSS","MySQL","bootstrap"],
+                "image_urls": {
+                    "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665248859/PhpProject/phpImage1_wg1abo.jpg",
+                    "internal_image":[
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665248859/PhpProject/phpImage1_wg1abo.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665248858/PhpProject/phpImage4_xa9css.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665248859/PhpProject/phpImage6_mgka3c.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665248858/PhpProject/phpImage5_mpehv9.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665248858/PhpProject/phpImage2_ucbitn.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665248858/PhpProject/phpImage3_enfxq4.jpg"
+                        
+                    ]
+                },
+                "git_Repo":"https://github.com/ariayingdeng/EasyCook.git"
+            },
+            {
+                "id":5,
+                "project_name":"Calories Calculator",
+                "HomePageDis":"This is the android application",
+                "description": "This is the android application which can calculate the calories of user every day and recording all data in the calendar.",
+                "technologies":["Java","Android studio","MySQL"],
+                "image_urls": {
+                    "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories_square_pve0wx.jpg",
+                    "internal_image":[
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories1_v2finx.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories2_tochej.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories3_ubrgrd.jpg"
+                    ]
+                },
+                "git_Repo":"https://github.com/TungYuChen/F21G1_CalorieCalculator.git"
+                
             }
+            
 
     ]
 }

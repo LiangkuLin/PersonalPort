@@ -28,16 +28,14 @@ const containerStyle={
 
 
 
-const changeColor = () =>{
-  console.log("hover")
-}
+
 
 
   return (
 
     <Grid container direction="row"  justifyContent="space-between"  alignItems="center"  className="mainContentStyle">
             <Grid container  alignItems="center" style={{color:"white"}}>
-                Liangku Lin
+               <span className='logoStyle'>Liangku Lin</span> 
             </Grid>
             <Grid>  
             </Grid>

@@ -55,7 +55,7 @@ function Works() {
     }
 
     const onClickWorks = (data) =>{
-      navigate("/portfolio/worksPage",{state:{work:data}}); 
+      navigate("/portfolio/works/worksPage",{state:{work:data}}); 
     }
 
 
@@ -86,12 +86,11 @@ function Works() {
                           style={{padding:15, backgroundColor:"#F0F0F0" }}
                       />
                       <CardContent sx={{height:130}}>
-                          <Typography gutterBottom variant="h6" component="div">
-                          {data.project_name}
-                          </Typography>
-                          <Typography variant="body2" color="text.secondary">
-                          {data.HomePageDis}
-                          </Typography>
+                          
+                          <h6>{data.project_name}</h6>
+                        
+                          <span className="workComponentText">{data.HomePageDis}</span>
+                          
                       </CardContent>
                     </CardActionArea>
                  </Card>

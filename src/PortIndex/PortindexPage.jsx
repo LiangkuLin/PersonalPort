@@ -23,7 +23,7 @@ function PortIndex() {
   
   function HeadBarLayout (){
     return (
-        <>  <HeaderBar/><Outlet/></>
+        <> <HeaderBar/><Outlet/></>
     )
   }
 
@@ -37,7 +37,7 @@ function PortIndex() {
             <Route element={<HeadBarLayout/>}>
                 <Route path='/portfolio/about' element={<About/>}/>
                 <Route path='/portfolio/works' element={<Works/>}/>
-                <Route path='/portfolio/worksPage' element={<WorksPage/>}/>
+                <Route path='/portfolio/works/worksPage' element={<WorksPage/>}/>
                 <Route path='/portfolio/contact' element={<ContactLayout/>}/>
             </Route>
         </Routes>

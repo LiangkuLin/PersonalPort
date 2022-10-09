@@ -7,7 +7,7 @@
   color:black;
   display: block;
   font-size:2vw;
-  font-style: italic;
+  
 }
 
 .wordOfWelcome{
@@ -15,6 +15,15 @@
   max-height:500px;
   overflow:hidden;
   text-overflow: clip;
+}
+.logoStyle{
+  font-weight:600;
+}
+
+/**italic**/
+
+.italic{
+  font-style: italic;
 }
 
 
@@ -40,7 +49,7 @@
 
 .mainContentStyle{
   padding-left: 10vw;
-  background-color:#606060;
+  background-color:#202020;
   box-shadow: 0px 2px 1px 0px#A9A9A9;
 }
 
@@ -132,16 +141,23 @@
   to { transform:translateX(0%);opacity:1}
 }
 
-.welcomePageAnimation{
-  animation-name: welcomeAnimation;   
-  animation-duration: 1s;
+.welcomePageArrowStyle{
+    font-size: 1rem;
+    color: #ebf1f3;
+    background-color: #202020;
+    padding: 0.3rem;
+    border-radius: 5px;
+ }
+ .welcomePageArrowStyle:hover{
 
+  font-size: 1.2rem;
+    color: #c8d3d7;
+    text-decoration: none;
+    background-color: #474545; 
  }
 
-@keyframes welcomeAnimation {
-  from{ transform: translateX(-50%);opacity: 0;}
-  to { transform: translateX(0%); opacity: 1;}
-}
+
+
 
 .nav_Link{
   padding: 0.6em;
@@ -158,6 +174,12 @@
   padding: 0.6em;
   border-radius: 10px;
 } */
+
+.workComponentText{
+  color: #728991;
+  font-size: 0.3rem;
+}
+
 @media only screen and (max-width:1000px) {
 
   .welcomeGridStyle{
