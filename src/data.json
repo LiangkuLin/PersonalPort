@@ -4,7 +4,7 @@
                 "id":1,
                 "project_name":"Canine Life Matter",
                 "HomePageDis":"This is the website which was made for stray dog",
-                "description": "This is the web applicaiton which was made for stray dogs. Users can report where they found dogs. The other users can adopt it through this website",
+                "description": "This is the web applicaiton which was made for stray dogs. Users can report where they found dogs. The other users can adopt it through this website. The other functions includes Map and Donation. Map is for users to locate themselves and find or report the stray dogs location.",
                 "technologies":["React","HTML","CSS", "Java", "Spring boot", "MySQL"],
                 "image_urls": {
                     "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256769/Canine/Canine1_rectxo.jpg",
@@ -28,7 +28,7 @@
                 "id":2,
                 "project_name":"Chris Fitness",
                 "HomePageDis":"This is the website which was made for Chris Fitness",
-                "description": "This is the website which was made for Chris Fitness. This website contain all pictures which were related to Previos Chris Fitness in Hong Kong, and the BMI and body fat calculator are provided. In addition, the training video is also provided for the users who intend to work out at home.",
+                "description": "This is the website which was made for Chris Fitness. This website contain all pictures which were related to Previos Chris Fitness in Hong Kong. In addition, BMI and body fat calculator are provided. The training videos are also included for all users who intend to work out at home.",
                 "technologies":["HTML","CSS","Javascript"],
                 "image_urls": {
                     "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610166/MuayTai/muay_square_nwusum.jpg",
@@ -55,6 +55,7 @@
                     "internal_image":[
                         "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie1_jpah5w.jpg",
                         "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie_square_nforo8.jpg",
+                        "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie2_cvab5u.jpg",
                         "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie3_y2raj5.jpg"
                     ]
                 },
@@ -64,7 +65,7 @@
                 "id":4,
                 "project_name":"EasyCook",
                 "HomePageDis":"Web application that provides recipes and related ingredients",
-                "description": "This is the website which was made for people srearching new recipes and grabing all ingredients conveniently",
+                "description": "This is the website which was made for people srearching new recipes and grabing all ingredients conveniently.",
                 "technologies":["PHP","HTML","CSS","MySQL","bootstrap"],
                 "image_urls": {
                     "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665248859/PhpProject/phpImage1_wg1abo.jpg",
