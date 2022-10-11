@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/PersonalPort/static/css/main.d9f87d45.css",
-    "main.js": "/PersonalPort/static/js/main.a6624cbd.js",
+    "main.js": "/PersonalPort/static/js/main.b370947c.js",
     "static/media/index_img.jpg": "/PersonalPort/static/media/index_img.8bbb5a1c83f191107040.jpg",
     "index.html": "/PersonalPort/index.html",
     "main.d9f87d45.css.map": "/PersonalPort/static/css/main.d9f87d45.css.map",
-    "main.a6624cbd.js.map": "/PersonalPort/static/js/main.a6624cbd.js.map"
+    "main.b370947c.js.map": "/PersonalPort/static/js/main.b370947c.js.map"
   },
   "entrypoints": [
     "static/css/main.d9f87d45.css",
-    "static/js/main.a6624cbd.js"
+    "static/js/main.b370947c.js"
   ]
 }
