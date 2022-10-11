@@ -50,7 +50,7 @@ function Welcome() {
        <div className='welcomeGridStyle'>
         Hi, <br/>
         I am Liangku Lin <br/>
-        <NavLink  to="/portfolio/about" className='welcomePageArrowStyle'>    
+        <NavLink  to="/PersonalPort/about" className='welcomePageArrowStyle'>    
                   Click here to start <ForwardIcon/>
         </NavLink>
        </div>

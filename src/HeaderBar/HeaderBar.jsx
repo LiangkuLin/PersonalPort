@@ -41,10 +41,10 @@ const containerStyle={
             </Grid>
          
             <Grid container direction="row" justifyContent="space-between" alignItems="center" sx={containerStyle}>
-              <Grid><NavLink className="nav_Link" style={({isActive})=>({color: isActive ? 'white' : 'white'})} to="/portfolio" >Welcome</NavLink></Grid>
-              <Grid><NavLink  className="nav_Link" style={({isActive})=>({color: isActive ? '#808080' : 'white'})} to="/portfolio/about" >About</NavLink></Grid>
-              <Grid><NavLink  className="nav_Link" style={({isActive})=>({color: isActive ? '#808080' : 'white'})} to="/portfolio/works">Works</NavLink></Grid>
-              <Grid><NavLink  className="nav_Link"  style={({isActive})=>({color: isActive ? '#808080' : 'white'})}  to="/portfolio/contact">Contact</NavLink></Grid>
+              <Grid><NavLink className="nav_Link" style={({isActive})=>({color: isActive ? 'white' : 'white'})} to="/PersonalPort" >Welcome</NavLink></Grid>
+              <Grid><NavLink  className="nav_Link" style={({isActive})=>({color: isActive ? '#808080' : 'white'})} to="/PersonalPort/about" >About</NavLink></Grid>
+              <Grid><NavLink  className="nav_Link" style={({isActive})=>({color: isActive ? '#808080' : 'white'})} to="/PersonalPort/works">Works</NavLink></Grid>
+              <Grid><NavLink  className="nav_Link"  style={({isActive})=>({color: isActive ? '#808080' : 'white'})}  to="/PersonalPort/contact">Contact</NavLink></Grid>
             </Grid>
     </Grid>
   )

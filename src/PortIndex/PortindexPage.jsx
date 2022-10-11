@@ -33,12 +33,12 @@ function PortIndex() {
     return (
       <AnimatePresence>
         <Routes location={location} key={location.pathname}>
-            <Route path='/portfolio' element={<Welcome/>}/>
+            <Route path='/PersonalPort' element={<Welcome/>}/>
             <Route element={<HeadBarLayout/>}>
-                <Route path='/portfolio/about' element={<About/>}/>
-                <Route path='/portfolio/works' element={<Works/>}/>
-                <Route path='/portfolio/works/worksPage' element={<WorksPage/>}/>
-                <Route path='/portfolio/contact' element={<ContactLayout/>}/>
+                <Route path='/PersonalPort/about' element={<About/>}/>
+                <Route path='/PersonalPort/works' element={<Works/>}/>
+                <Route path='/PersonalPort/works/worksPage' element={<WorksPage/>}/>
+                <Route path='/PersonalPort/contact' element={<ContactLayout/>}/>
             </Route>
         </Routes>
       </AnimatePresence>
