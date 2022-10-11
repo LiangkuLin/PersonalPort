@@ -55,7 +55,7 @@ function Works() {
     }
 
     const onClickWorks = (data) =>{
-      navigate("/portfolio/works/worksPage",{state:{work:data}}); 
+      navigate("/PersonalPort/works/worksPage",{state:{work:data}}); 
     }
 
 
