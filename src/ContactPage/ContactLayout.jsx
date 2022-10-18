@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { CSSTransition,TransitionGroup } from 'react-transition-group';
 import CantactLogo from './ContactLogo';
 import ContactLogoCaption from './ContactLogoCaption';
 import ContactDetail from './ContactDetail';

@@ -4,7 +4,7 @@
                 "id":1,
                 "project_name":"Canine Life Matter",
                 "HomePageDis":"This is the website which was made for stray dog",
-                "description": "This is the web applicaiton which was made for stray dogs. Users can report where they found dogs. The other users can adopt them through this website. The other functions includes Map and Donation. Map is for users to locate themselves and find or report the stray dogs location.",
+                "description": "This is the web application which was made for stray dogs. Users can report where they found dogs. The other users can adopt them through this website. The other functions includes Map and Donation. Map is for users to locate themselves and find or report the stray dogs location.",
                 "technologies":["React","HTML","CSS", "Java", "Spring boot", "MySQL"],
                 "image_urls": {
                     "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256769/Canine/Canine1_rectxo.jpg",

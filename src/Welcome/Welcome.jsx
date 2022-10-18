@@ -1,6 +1,5 @@
 
 import React,{useState} from 'react'
-import { Grid } from '@mui/material'
 import {motion} from 'framer-motion';
 import backgroundImage from "../images/index_img.jpg";
 import PortIndex from '../PortIndex/PortindexPage';
