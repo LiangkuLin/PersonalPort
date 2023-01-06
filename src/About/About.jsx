@@ -71,7 +71,7 @@ function About() {
           </ul>
         </Grid>
         <Grid  sm={12} md={6} container  justifyContent="center"  alignItems="center" sx={{overflow:"hidden"}}>
-          <img src="https://res.cloudinary.com/dxh3jlhil/image/upload/v1664640757/portFile_public/Try_nlax7b.jpg" alt=".img" className='aboutPicture'/>
+          <img src="https://res.cloudinary.com/dxh3jlhil/image/upload/v1672969276/portFile_public/mypro_vrtxtf.jpg" alt=".img" className='aboutPicture'/>
         </Grid>
       </Grid>
       </div>

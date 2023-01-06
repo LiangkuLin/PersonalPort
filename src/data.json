@@ -3,8 +3,8 @@
             {
                 "id":1,
                 "project_name":"Canine Life Matter",
-                "HomePageDis":"This is the website which was made for stray dog",
-                "description": "This is the web application which was made for stray dogs. Users can report where they found dogs. The other users can adopt them through this website. The other functions includes Map and Donation. Map is for users to locate themselves and find or report the stray dogs location.",
+                "HomePageDis":"This is a website which was made for stray dogs",
+                "description": "This is a web application which was made for stray dogs. Users can report where they found dogs, and the other users can adopt them through this website. The other functions include Map and Donation. The map feature is for users to locate themselves and find or report the stray dog's location. In addition, the dashboard is provided in this app for users to manage all dog's information.",
                 "technologies":["React","HTML","CSS", "Java", "Spring boot", "MySQL"],
                 "image_urls": {
                     "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665256769/Canine/Canine1_rectxo.jpg",
@@ -27,8 +27,8 @@
             {
                 "id":2,
                 "project_name":"Chris Fitness",
-                "HomePageDis":"This is the website which was made for Chris Fitness",
-                "description": "This is the website which was made for Chris Fitness. This website contain all pictures which were related to previos Chris Fitness in Hong Kong. In addition, BMI and body fat calculator are provided. The training videos are also included for all users who intend to work out at home.",
+                "HomePageDis":"This is a website which was made for Chris Fitness",
+                "description": "This is the website which was made for Chris Fitness. This website contains all pictures which were related to previous Chris Fitness in Hong Kong. In addition, BMI and body fat calculator are provided. The training videos are also included for all users who intend to work out at home.",
                 "technologies":["HTML","CSS","Javascript"],
                 "image_urls": {
                     "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610166/MuayTai/muay_square_nwusum.jpg",
@@ -47,8 +47,8 @@
             {
                 "id":3,
                 "project_name":"Movie Booking System",
-                "HomePageDis":"This is the website made for any movie company",
-                "description": "This is the website which was made for any movie company. They can use this app to share new movie information, manage users data. Customers can use this app to book tickets with specific seat. ",
+                "HomePageDis":"This is the website made for any movie company (In development)",
+                "description": "This is the website which was made for any movie company. They can use this app to share new movie information and manage users' data. Customers can use this app to book tickets with specific show with seats.",
                 "technologies":["Vue","HTML","CSS","Javascript","Springboot","Java","H2 database"],
                 "image_urls": {
                     "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663610132/Movie_Tickets/movie2_cvab5u.jpg",
@@ -65,7 +65,7 @@
                 "id":4,
                 "project_name":"EasyCook",
                 "HomePageDis":"Web application that provides recipes and related ingredients",
-                "description": "This is the website which was made for people srearching new recipes and grabing all ingredients conveniently.",
+                "description": "This is a website which was made for people searching for new recipes and ordering all ingredients online.",
                 "technologies":["PHP","HTML","CSS","MySQL","bootstrap"],
                 "image_urls": {
                     "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1665248859/PhpProject/phpImage1_wg1abo.jpg",
@@ -85,7 +85,7 @@
                 "id":5,
                 "project_name":"Calories Calculator",
                 "HomePageDis":"This is the android application",
-                "description": "This is the android application which can calculate the calories of user every day and recording all data in the calendar.",
+                "description": "This is an android application which can calculate calories of users every day and record all data in the calendar day by day.",
                 "technologies":["Java","Android studio","MySQL"],
                 "image_urls": {
                     "square_image": "https://res.cloudinary.com/dxh3jlhil/image/upload/v1663601027/Android_Calories/calories_square_pve0wx.jpg",
