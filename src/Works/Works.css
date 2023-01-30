@@ -1,3 +1,10 @@
+.works {
+  background-color: #f8f8f8;
+  height: 100vh;
+  text-align: center;
+  padding: 5vh;
+}
+
 .workComponentText {
   color: #728991;
   font-size: 0.3rem;

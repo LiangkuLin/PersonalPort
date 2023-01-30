@@ -4,9 +4,6 @@ import Grid from "@mui/material/Unstable_Grid2/Grid2";
 import "./HeaderBar.css";
 
 function HeaderBar() {
-  const logoStyle = {
-    width: 10,
-  };
 
   const containerStyle = {
     fontWeight: "bold",
@@ -27,7 +24,7 @@ function HeaderBar() {
       className="mainContentStyle"
     >
       <Grid container alignItems="center" style={{ color: "white" }}>
-        <span className={logoStyle}>Liangku Lin</span>
+        <span className="logoStyle">Liangku Lin</span>
       </Grid>
       <Grid></Grid>
 
