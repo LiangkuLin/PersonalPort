@@ -1,0 +1,40 @@
+.inlineIcon {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inlineIcon li {
+  border-radius: 30%;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid black;
+  margin: 1rem;
+  color: "Black";
+  list-style: none;
+}
+
+.inlineIcon li.active {
+  background-color: black;
+}
+
+.inlineIcon li:hover {
+  background-color: black;
+}
+
+.swap-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.swap-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: opacity 3000ms, transform 1000ms;
+}
+.swap-exit {
+  opacity: 1;
+  display: none;
+}
+.swap-exit-active {
+  opacity: 0;
+  transition: opacity 300ms, transform 0ms;
+}

@@ -1,0 +1,13 @@
+.mainContentStyle {
+  padding-left: 10vw;
+  background-color: #202020;
+  box-shadow: 0px 2px 1px 0px#A9A9A9;
+}
+
+.nav_Link {
+  padding: 0.6em;
+}
+
+.nav_Link:hover {
+  text-decoration: none;
+}

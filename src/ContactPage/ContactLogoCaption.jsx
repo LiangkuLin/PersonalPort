@@ -1,16 +1,16 @@
-import React from 'react'
+import React from "react";
+import "./ContactLogoCaption.css";
 
 function ContactLogoCaption() {
-
-  const contactCaptionStyle={
-    paddingTop: "8vh"
-  }
+  const contactCaptionStyle = {
+    paddingTop: "8vh",
+  };
 
   return (
-    <div className='ContactCaptionAnimation' style={contactCaptionStyle}>
+    <div className="ContactCaptionAnimation" style={contactCaptionStyle}>
       Email: jerry031785gmail.com
     </div>
-  )
+  );
 }
 
-export default ContactLogoCaption
+export default ContactLogoCaption;

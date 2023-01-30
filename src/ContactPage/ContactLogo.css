@@ -1,0 +1,15 @@
+.logoAnimation {
+  animation-name: logoShift;
+  animation-duration: 3s;
+}
+
+@keyframes logoShift {
+  from {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}

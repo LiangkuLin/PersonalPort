@@ -1,0 +1,16 @@
+.ContactDetailsAnimation {
+  animation-name: contactdetail;
+  animation-duration: 2s;
+  padding-top: 2vh;
+}
+
+@keyframes contactdetail {
+  from {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,40 @@
+.aboutContainer {
+  background-color: rgb(233, 239, 241);
+  margin: 7vh;
+  box-shadow: 2vw 2vw #9ca9ae;
+  padding: 5rem;
+}
+
+.aboutPicture {
+  width: 90%;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.dateFormat {
+  font-style: italic;
+  font-size: 0.5rem;
+}
+
+.italic {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutContainer {
+    background-color: rgb(233, 239, 241);
+    margin: 0;
+    box-shadow: 2vw 2vw #9ca9ae;
+    padding: 10vw;
+  }
+
+  .welcomeGridStyle {
+    position: relative;
+    left: 30vw;
+    top: 70vh;
+    width: 50vw;
+    color: black;
+    display: block;
+    font-size: 5vw;
+  }
+}
